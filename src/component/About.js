@@ -14,7 +14,7 @@ export default function About() {
             <a href="tel:9928168749" target="_blank">
               <span style={{ "color": "white" }}>
 
-              <i class="fa fa-solid fa-mobile"></i>
+              <i className="fa fa-solid fa-mobile"></i>
               </span>
             </a>
           </div>
@@ -30,7 +30,7 @@ export default function About() {
           <div className='mx-2'>
             <a href="https://github.com/Keshav18khandelwal/" target="_blank">
               <span style={{ "color": "white" }}>
-                <i class="fab fa-brands fa-github"></i>
+                <i className="fab fa-brands fa-github"></i>
               </span>
             </a>
           </div>
@@ -56,7 +56,7 @@ export default function About() {
             <a href="mailto:khandelwal18keshav@gmail.com" target="_blank">
               <span style={{ "color": "white" }}>
 
-              <i class="fa fa-solid fa-envelope"></i>
+              <i className="fa fa-solid fa-envelope"></i>
               </span>
             </a>
           </div>
