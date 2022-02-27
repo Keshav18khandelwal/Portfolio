@@ -1,3 +1,4 @@
+
 .App {
   text-align: center;
 }
@@ -35,4 +36,217 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+
+
+#kphoto{
+  width: 15%;
+  height: 7%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  border-radius: 50%;
+  border: 3px solid #143d59;
+}
+#b1photo:hover,#b2photo:hover{
+  background-image: none;
+  background-color:#2D2926FF;
+  color: #E94B3CFF;
+  opacity: 1;
+  
+  /* z-index:-1; */
+}
+
+.btn-secondary{
+  background-color: #E94B3CFF;
+  color: #2D2926FF;
+  font-size: 1.2rem;
+  border: none;
+}
+#b1photo:hover .card-text,#b2photo:hover .card-text{
+  display: block;
+  letter-spacing: 1px;
+  font-family: sans-serif;
+  line-height: 30px;
+  opacity: 1;
+}
+.aboutk{
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  padding-bottom: 4%;
+font-size: large;
+font-family: serif;
+}
+#project{
+  display: flex;
+  
+}
+#b1photo{
+  background-image: url('./component/images/notes12.jpg');
+
+/* z-index: 1; */
+opacity: 0.8;
+  width: 45vw;
+  height: 60vh;
+  margin-top: 5vh;
+  margin-bottom: 10vh;
+  margin-right: auto;
+  margin-left: auto;
+  background-size:cover;
+  justify-content:center;   
+   background-position:center;
+  transition: all 1s;
+}
+#b2photo{
+  background-image: url('./component/images/news1.jpg');
+ 
+transition: all 1s;
+opacity: 0.8;
+  width: 45vw;
+  height: 60vh;
+  margin-top: 5vh;
+  margin-bottom: 10vh;
+  margin-right: auto;
+  margin-left: auto;
+  background-size:cover;
+  justify-content:center;   
+   background-position:center;
+  z-index: 1;
+  
+  
+}
+.card-text{
+  z-index: -1;
+  display: none;
+}
+.btn{
+  margin: 10px;
+}
+.btn:hover{
+  box-shadow: 0 4px 8px 0 rgba(221,194,165,0.2), 0 6px 20px 0 rgba(221,194,165,0.19);
+}
+.skill{
+  /* border: 2px solid blue; */
+  align-items: center;
+  justify-content: center;
+  width: 10vw;
+  height: 15vh;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 10px;
+  background-color: #010713;
+  color: #ffffff;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  box-shadow: 0 14px 18px 0 rgba(22, 12, 1, 0.2), 0 16px 20px 0 rgba(14, 7, 0, 0.19);
+}
+.sk{
+  padding-bottom: 1.5rem;
+}
+.skillimage{
+  width: 3vw;
+  height: 5vh;
+}
+.cform{
+  background-color: #f4b41a;
+  color: #143d59;
+  padding-top: 5%;
+}
+.form-control{
+color: black;
+background-color: white;
+border-radius: 10px;
+font-family:sans-serif;
+}
+.form{
+  margin: 40px;
+}
+.cbtn{
+  width: 100%;
+  margin: 20px 0px 50px 0px;
+border-radius: 10px;
+background-color: #143d59;
+color: #f4b41a;
+}
+body{
+font-family: sans-serif;
+/* background-image: linear-gradient(to left top ,rgba(15,18,154,1),rgba(252,156,79,1)); */
+background-image: linear-gradient(to left top ,rgb(0,20,79),rgb(243,190,148),rgb(245,174,24));
+background-color: rgb(0,20,79);
+color: rgb(0,20,79);
+}
+.education{
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+.ediv{
+  /* border: 2px solid green; */
+  margin: 1% 0 1% 0;
+  padding: 1% 0 1% 0;
+  background-color: #030E4F;
+  color: #F49F1C;
+}
+.navbar-light .navbar-nav .nav-link {
+  color: #030E4F;
+  padding-left:1rem ;
+  padding-right: 1rem;
+  font-weight: bold;
+}
+.navbar{
+  position: sticky;
+  top: 0%;
+  z-index: 2;
+  /* background-color: rgb(244,180,70); */
+  background-image: linear-gradient( to right, rgba(244,180,70,1), rgba(244,180,70,0));
+  
+}
+.nav-link:hover{
+  text-decoration: underline;
+  /* font-weight: bold; */
+  background-color: #F0F6F7FF;
+ 
+}
+.nav-link{
+  margin: 0 1rem 0 1 rem;
+}
+
+
+/* media query */
+@media screen and (max-width:768px) {
+  #project{
+    display: grid;
+   
+  }
+  #b1photo,#b2photo{
+  
+    width: 90vw;
+    height: 50vh;
+    margin-top: 3vh;
+    margin-bottom: 10vh;
+    margin-right: auto;
+    margin-left: auto;
+    background-size:cover;
+    justify-content:center;   
+     background-position:center;
+    z-index: 1;
+    font-size: 1rem;
+    
+  }
+  
+  .skill{
+    
+    width: 25vw;
+    height: 20vh;
+    font-size: 1.2rem;
+    
+  }
+  .skillimage{
+    width: 10vw;
+    height: 8vh;
+  }
+}
+#Hh{
+  font-family: 'Great Vibes', cursive;
 }
