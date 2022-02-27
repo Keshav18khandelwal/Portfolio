@@ -1,6 +1,6 @@
 import React from 'react'
 import keshavphoto from './images/keshavphoto1.jpg';
-import Flash from 'react-reveal/Flash';
+
 import LightSpeed from 'react-reveal/LightSpeed';
 import Fade from 'react-reveal/Fade';
 export default function Home() {

@@ -13,8 +13,8 @@ export default function Project() {
                         <div className="card-text"><div>One can signUp and login.</div>
                             <div>One can Create Edit and Delete self notes.</div>
                             <div>Tech Used : ReactJs, ExpressJs, Mongodb, Nodejs, Bootstrap, Json Web Token for authentication.</div>
-                            <a href="https://mern-stack-note-app.herokuapp.com/login" className="btn btn-secondary" target="_blank">Website</a>
-                            <a href="https://github.com/Keshav18khandelwal/fullStackNotesApp" className="btn btn-secondary" target="_blank">Source</a></div>
+                            <a href="https://mern-stack-note-app.herokuapp.com/login" className="btn btn-secondary" target="_blank" rel="noopener noreferrer">Website</a>
+                            <a href="https://github.com/Keshav18khandelwal/fullStackNotesApp" className="btn btn-secondary" target="_blank" rel="noopener noreferrer">Source</a></div>
                             
                     </div>
                 </div>
@@ -27,7 +27,7 @@ export default function Project() {
                             <div>Api used in this project working only on localhost so clone source code and run in your sysem</div>
                             <div>Tech Used : ReactJs, Bootstrap, News api.</div>
 
-                            <a href="https://github.com/Keshav18khandelwal/NewsAPP" className="btn btn-secondary" target="_blank">Source</a></div>
+                            <a href="https://github.com/Keshav18khandelwal/NewsAPP" className="btn btn-secondary" target="_blank" rel="noopener noreferrer">Source</a></div>
                     </div>
                 </div>
                 </Fade>

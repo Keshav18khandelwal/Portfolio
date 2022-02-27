@@ -11,7 +11,7 @@ export default function About() {
         <div style={{ "fontSize": "2em", "color": "white", "paddingBottom": "2vh", "display": "flex", "justifyContent": "center" }} className="d-flex mx-3 my-3">
        <Fade bottom>
         <div className='mx-2'>
-            <a href="tel:9928168749" target="_blank">
+            <a href="tel:9928168749" target="_blank" rel="noopener noreferrer">
               <span style={{ "color": "white" }}>
 
               <i className="fa fa-solid fa-mobile"></i>
@@ -20,7 +20,7 @@ export default function About() {
           </div>
           
           <div className='mx-2'>
-            <a href="https://www.instagram.com/khandelwal.2001/" target="_blank">
+            <a href="https://www.instagram.com/khandelwal.2001/" target="_blank" rel="noopener noreferrer">
               <span style={{ "color": "white" }}>
 
                 <i className="fab fa-instagram"></i>
@@ -28,7 +28,7 @@ export default function About() {
             </a>
           </div>
           <div className='mx-2'>
-            <a href="https://github.com/Keshav18khandelwal/" target="_blank">
+            <a href="https://github.com/Keshav18khandelwal/" target="_blank" rel="noopener noreferrer">
               <span style={{ "color": "white" }}>
                 <i className="fab fa-brands fa-github"></i>
               </span>
@@ -37,7 +37,7 @@ export default function About() {
           
          
           <div className='mx-2'>
-            <a href="https://www.facebook.com/keshav.khandelwal.54" target="_blank">
+            <a href="https://www.facebook.com/keshav.khandelwal.54" target="_blank" rel="noopener noreferrer">
               <span style={{ "color": "white" }}>
 
                 <i className="fab fa-facebook"></i>
@@ -45,7 +45,7 @@ export default function About() {
             </a>
           </div>
           <div className='mx-2'>
-            <a href="https://www.linkedin.com/in/keshav-khandelwal-91542419b" target="_blank">
+            <a href="https://www.linkedin.com/in/keshav-khandelwal-91542419b" target="_blank" rel="noopener noreferrer">
               <span style={{ "color": "white" }}>
 
                 <i className="fab fa-linkedin"></i>
@@ -53,7 +53,7 @@ export default function About() {
             </a>
           </div>
           <div className='mx-2'>
-            <a href="mailto:khandelwal18keshav@gmail.com" target="_blank">
+            <a href="mailto:khandelwal18keshav@gmail.com" target="_blank" rel="noopener noreferrer">
               <span style={{ "color": "white" }}>
 
               <i className="fa fa-solid fa-envelope"></i>

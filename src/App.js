@@ -1,8 +1,3 @@
-// rgb(221,194,165)
-
-// rgb(32,30,33)
-
-// rgb(224,170,110)
 
 import './App.css';
 import Navbar from './component/Navbar';
